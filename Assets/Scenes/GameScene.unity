@@ -488,6 +488,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7599120972660652253, guid: 28f58c249be9c5140a38a1b3f0bbca10,
+        type: 3}
+      propertyPath: kichenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 491e038ef7f851b49973ef147873c12e,
+        type: 2}
     - target: {fileID: 4672188212059287785, guid: 28f58c249be9c5140a38a1b3f0bbca10,
         type: 3}
       propertyPath: m_Name
