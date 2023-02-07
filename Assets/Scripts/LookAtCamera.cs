@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LookAtCamera : MonoBehaviour
-{
+public class LookAtCamera : MonoBehaviour {
+
+
     private enum Mode {
         LookAt,
         LookAtInverted,
@@ -11,12 +12,12 @@ public class LookAtCamera : MonoBehaviour
         CameraForwardInverted,
     }
 
+
     [SerializeField] private Mode mode;
 
-    private void LateUpdate()
-    {
-        switch (mode)
-        {
+
+    private void LateUpdate() {
+        switch (mode) {
             case Mode.LookAt:
                 transform.LookAt(Camera.main.transform);
                 break;
@@ -32,4 +33,5 @@ public class LookAtCamera : MonoBehaviour
                 break;
         }
     }
+
 }

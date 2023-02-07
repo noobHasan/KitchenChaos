@@ -3,12 +3,12 @@
     "maps": [
         {
             "name": "Player",
-            "id": "c879c1f8-8e72-4091-bae7-bb5aa9d56bad",
+            "id": "ee5e51f4-8b08-49fc-90eb-52682e031d07",
             "actions": [
                 {
                     "name": "Move",
                     "type": "Value",
-                    "id": "563dcd68-7c02-4fa6-a45c-e13c53a511fe",
+                    "id": "a1b07617-998a-4c61-b19e-6d4bb1308d0e",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -17,7 +17,7 @@
                 {
                     "name": "Interact",
                     "type": "Button",
-                    "id": "dc8e566b-5a73-4cfa-8b57-2508e596e0d6",
+                    "id": "2fd02290-8577-4db2-bcee-9ab6bd10145d",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -26,7 +26,7 @@
                 {
                     "name": "InteractAlternate",
                     "type": "Button",
-                    "id": "a1cdb7e6-1e1d-4e23-a55d-b62a07aef7ee",
+                    "id": "c52d17e5-b60f-4aeb-9eea-8ea14a7bc8a4",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -35,7 +35,7 @@
                 {
                     "name": "Pause",
                     "type": "Button",
-                    "id": "12681b0e-5fc9-4c8c-aa66-db12b6f8663c",
+                    "id": "f533f0c6-a526-45d1-ab00-ed86c15608d8",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -45,7 +45,7 @@
             "bindings": [
                 {
                     "name": "WASD",
-                    "id": "e5a62ae3-2cc1-43ef-814f-f8fec4a7ce1f",
+                    "id": "a6b015f6-1004-4e32-b882-631ef66db7e3",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -56,7 +56,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "684c0d9b-40a0-4ea7-9817-7e7e317e8f11",
+                    "id": "13846bd9-5b0e-47a9-9b42-dbe1460c2e85",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -67,7 +67,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "da5b817a-ab81-4f06-a388-dc55038f90a6",
+                    "id": "4ecc1af6-5d24-4772-aade-92f1494f5bf0",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -78,7 +78,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "c73c9bac-2ca8-4ff7-b2c1-a1dbc6ca8748",
+                    "id": "0e503079-61d2-4799-9014-d53dff129bc5",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -89,7 +89,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "18825c83-49f4-4404-b5c5-c206863390e2",
+                    "id": "e367203c-d448-414b-9420-a77322ddf2e4",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -99,8 +99,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "ArrowKeys",
-                    "id": "43f65562-7804-4089-aab7-76cc8b0df07d",
+                    "name": "Arrow Keys",
+                    "id": "ee4adbda-6bf6-49a4-a142-1169a1bb796c",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -111,7 +111,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "bc10a7cf-28ce-49bf-bf80-c1d6f228f263",
+                    "id": "520af100-1a23-4d8b-812e-51782fff4899",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
@@ -122,7 +122,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "c56a52be-c2c3-4212-9654-91597e7a159c",
+                    "id": "50e5faa0-705c-4cd4-b885-8550f02436a9",
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
@@ -133,7 +133,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "c816e5ae-b00b-435b-9221-f2ecf73863bc",
+                    "id": "9d6d88a7-9359-4c4e-92b9-3fabc8175e96",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
@@ -144,7 +144,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "2911cf25-3961-4c29-b40a-8f5245e25a62",
+                    "id": "9ab83dac-5f13-488d-8d65-d25b7cd2ebcd",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
@@ -155,7 +155,18 @@
                 },
                 {
                     "name": "",
-                    "id": "5d3b489c-c84c-42ee-9d16-2ed5904b2525",
+                    "id": "848d3f2b-264f-4cd6-a75c-32ea2d95a930",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "StickDeadzone(min=0.5)",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6f0f358a-7b5c-4b3a-86c3-06e0190a02ec",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
@@ -166,7 +177,18 @@
                 },
                 {
                     "name": "",
-                    "id": "ebf6b07c-9999-4ebb-8fce-09a292a4e65c",
+                    "id": "ba1d581e-0e18-44b6-b9eb-e5907691776f",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "55026678-500a-4ee6-ac4a-68cfda2a3a56",
                     "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
@@ -177,8 +199,30 @@
                 },
                 {
                     "name": "",
-                    "id": "ca600ef1-3a4c-44f4-bd49-4f3e12dcfe1e",
+                    "id": "b2aedbe4-155b-433d-b39d-01f25f42d1ae",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InteractAlternate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "caf14e06-9cd7-44b8-b0dd-67589d8b602c",
                     "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "71b4cd64-4d10-4a9b-989f-c9e7726f9c7b",
+                    "path": "<Gamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

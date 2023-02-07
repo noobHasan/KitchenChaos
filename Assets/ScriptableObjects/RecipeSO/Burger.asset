@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1609b43750bd3524cac762cdb7d31a1c, type: 3}
+  m_Script: {fileID: 11500000, guid: d0bc8e78076f7bb47894253fa280c634, type: 3}
   m_Name: Burger
   m_EditorClassIdentifier: 
   kitchenObjectSOList:
-  - {fileID: 11400000, guid: e02536ffc48d9544fbe25b0b977c6038, type: 2}
-  - {fileID: 11400000, guid: cdc53ab873af4434abd29bebce880650, type: 2}
+  - {fileID: 11400000, guid: c2481a7688752a94582d77f514752584, type: 2}
+  - {fileID: 11400000, guid: dc7206a372e873e44945cb9155f8c1ba, type: 2}
   recipeName: Burger
